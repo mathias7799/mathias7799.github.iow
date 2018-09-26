@@ -1,0 +1,43 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+   background-color: #888888;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: #becfff;
+  font-size: 23px;
+  }
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000e3;
+}
+a:hover, a:focus {
+    color: #b19df7;
+    text-decoration: underline;
+}
+img.a {
+    vertical-align: bottom;
+	padding-right: 1px;
+}
+#bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  filter: blur(5px);
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  background-color: rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
