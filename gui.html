@@ -3,6 +3,7 @@
 <head>
 	<link href="bootstrap.css" rel="stylesheet" />
 	<link href="style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
  <div class="img-src darker blur-me" id="bg"></div>
  <nav class="navbar navbar-transparent">
@@ -27,12 +28,54 @@
   </select>
  </div>
 </div>
- <div class="col-sm-12 align-items-center">
- <span class="content1">
- <button type="button" class="btn btn-dark">Start mining</button>
+ <div class="col-sm-12">
+ <button type="button" class="btn btn-info">Start mining</button>
+ <div id="inner">
+    <div id="miner_stats" class="statbody" style="background:#8382b7;display:inline-block">
+      <div class="left">
+        <span style="font-size:22px">1337</span><br>
+        <span style="font-size:12px;color:#fff">Miners online</span>
+      </div>
+      <div class="right" style="border-color:#8382b7">
+        <i class="fa fa-cogs" style="margin-top:12px;font-size:21px"></i>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div id="poolhashrate_stats" class="statbody" style="margin-left:6px;background:#8382b7;display:inline-block">
+      <div class="left">
+        <span style="font-size:22px">13.77 GH</span><br>
+        <span style="font-size:12px;color:#fff">Pool Hashrate</span>
+      </div>
+      <div class="right" style="border-color:#8382b7">
+        <i class="fa fa-tachometer" style="margin-top:9px;font-size:21px"></i>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div id="networkhashrate_stats" class="statbody" style="margin-left:6px;background:#8382b7;display:inline-block">
+      <div class="left">
+        <span style="font-size:22px">1337 TH</span><br>
+        <span style="font-size:12px;color:#fff">Network Hashrate</span>
+      </div>
+      <div class="right" style="border-color:#8382b7">
+        <i class="fa fa-tachometer" style="margin-top:9px;font-size:21px"></i>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div id="netdiff_stats" class="statbody" style="margin-left:6px;background:#8382b7;display:inline-block">
+      <div class="left">
+        <span style="font-size:22px">1.337 T</span><br>
+        <span style="font-size:12px;color:#fff">Network Difficulty</span>
+      </div>
+      <div class="right" style="border-color:#8382b7">
+        <i class="fa fa-unlock-alt" style="margin-top:13px;font-size:21px"></i>
+      </div>
+      <div style="clear:both"></div>
+    </div>
  </div>
-</span>
-</div>
-</div>
+ </div>
+ </div>
+  </div>
+  <footer>
+  </footer>
 </body>
 </html>
