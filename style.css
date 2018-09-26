@@ -7,19 +7,18 @@ body {
    background-color: #888888;
 }
 .content {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  color: #becfff;
-  font-size: 23px;
-  }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #becfff;
+    padding-top: 27px;
+    font-size: 23px;
 }
 .navbar {
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #000000e3;
 }
 a:hover, a:focus {
     color: #b19df7;
@@ -40,4 +39,40 @@ img.a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+.row {
+    margin-right: -15px;
+    padding-top: 50px;
+    margin-left: -15px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+	background-color: transparent;
+}
+.content1 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    color: #becfff;
+    padding-top: 83px;
+    font-size: 23px;
 }
