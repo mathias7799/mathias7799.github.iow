@@ -66,13 +66,60 @@ img.a {
     border: 1px solid #fff;
     border-radius: 4px;
 	background-color: transparent;
+	color: #fff;
 }
-.content1 {
-    position: absolute;
-    top: 50%;
-    left: 46.5%;
-    transform: translate(-50%,-50%);
-    color: #becfff;
-    padding-top: 83px;
-    font-size: 23px;
+
+.container-stats {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#inner {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.statbody {
+    width: 14%;
+    padding: 10px;
+    background: #868686;
+    color: #FFF
+}
+
+#infobox,#infobox-last {
+    background: #fff;
+    padding: 40px 25px;
+    color: #787878;
+    box-shadow: 0 0 5px 1px #D3D3D3;
+    display: inline-block;
+    position: relative
+}
+
+.statbody .left {
+    float: left;
+    text-align: left
+}
+
+.statbody .right {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #a1a1a1;
+    text-align: center;
+    float: right;
+    margin-top: 4px
+}
+#networkhashrate_stats {
+	margin-left:6px;
+	background:#49a4cf;
+	display:inline-block;
+}
+.col-sm-12 {
+    width: 100%;
+    text-align: center;
 }
